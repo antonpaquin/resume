@@ -1,0 +1,174 @@
+body {
+    margin: 0px;
+    /* A4 size */
+    height: 11.69in;
+    width: 8.27in;
+    /* I think I render at DPI 144 */
+    padding: 30px;
+    /* border: 3px solid #000; */
+}
+
+a {
+    color: black;
+    text-decoration: None;
+}
+
+p, ul, li {
+    margin: 0px;
+    line-height: 1.0;
+    padding: 0px;
+}
+
+ul {
+    list-style-type: square;
+}
+
+.section:not(:first-child) {
+    margin-top: 20px;
+}
+
+.section .header {
+    font-size: 20px;
+    font-weight: bold;
+    margin-bottom: 8px;
+}
+
+.identity {
+    display: flex;
+    flex-flow: row;
+}
+
+.identity .namebox {
+    display: flex;
+    flex-flow: column;
+    flex-grow: 1;
+}
+
+.identity .namebox span {
+    flex-grow: 1;
+}
+
+.identity .name {
+    font-size: 32px;
+}
+
+.identity .contact-wrap {
+    display: flex;
+    flex-flow: column;
+}
+
+.identity .contact-wrap span {
+    flex-grow: 1;
+}
+
+.identity .contact {
+    display: flex;
+    flex-flow: row;
+    text-align: right;
+}
+
+.identity .contact .contact-type {
+    margin-right: 10px;
+    font-weight: bold;
+}
+
+.mission .statement {
+    margin-left: 40px;    
+    line-height: 1.2;
+}
+
+.skills .skills-cols {
+    display: flex;
+    flex-flow: row;
+}
+
+.skills ul {
+    margin-left: 40px;
+    padding-left: 20px;
+}
+
+.skills li {
+    line-height: 1.2;
+}
+
+.experience .sub-section {
+    margin-left: 40px;
+}
+
+.experience .sub-section:not(:first-of-type) {
+    margin-top: 10px;
+}
+
+.experience .sub-header-wrap {
+    display: flex;
+    flex-flow: row;
+}
+
+.experience .sub-header-wrap span {
+    flex-grow: 1;
+}
+
+.experience .sub-header {
+    font-size: 20px;
+}
+
+.experience .time {
+    font-style: italic;
+}
+
+.experience ul {
+    margin-left: 20px;
+    margin-top: 3px;
+    padding-left: 20px;
+}
+
+.experience li {
+    line-height: 1.2;
+}
+
+.education .education-container {
+    margin-left: 40px;
+}
+
+.education .institution-wrap {
+    display: flex;
+    flex-flow: row;
+}
+
+.education .institution-wrap span {
+    flex-grow: 1;
+}
+
+.education .institution {
+    font-size: 20px;
+    margin-bottom: 3px;
+}
+
+.education .time {
+    font-style: italic;
+}
+
+.projects .sub-section {
+    margin-left: 40px;
+}
+
+.projects .sub-section:not(:first-of-type) {
+    margin-top: 10px;
+}
+
+.projects .sub-header {
+    font-size: 20px;
+}
+
+.projects .sub-section .description {
+    margin-left: 40px;
+    margin-top: 3px;
+    line-height: 1.2;
+}
+
+.projects .sub-section .technologies {
+    margin-left: 40px;
+    margin-top: 3px;
+    line-height: 1.2;
+    font-style: italic;
+}
